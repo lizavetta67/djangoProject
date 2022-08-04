@@ -3,7 +3,7 @@ from django.utils.translation import gettext_lazy as _
 
 from .manager import CustomUserManager
 
-# Create your models here.
+# Create your models here
 
 class Todolists(models.Model):
     username = models.CharField(max_length=64, default='')
